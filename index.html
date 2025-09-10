@@ -1,98 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huerta Automática</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e8f5e9;
-            color: #2e7d32;
-        }
-
-        header {
-            background-color: #66bb6a;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background-color: white;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #388e3c;
-        }
-
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #a5d6a7;
-            color: #1b5e20;
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huerta Automática</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Proyecto: Huerta Automática</h1>
-    </header>
+  <header>
+    <h1>Proyecto: Huerta Automática</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="diagrama.html">Diagrama del Sistema</a>
+    </nav>
+  </header>
 
-    <section>
-        <h2>Integrantes y Roles</h2>
-        <ul>
-            <li><strong>Juan Bernal</strong> – líder técnico y líder documental</li>
-           
-        </ul>
-    </section>
+  <section id="integrantes">
+    <h2>Integrantes y Roles</h2>
+    <ul>
+      <li><strong>Juan Bernal</strong> – líder técnico  líder documental</li>
+      <li><strong>Alejandro mogollon </strong> –  líder documental</li>
+    </ul>
+  </section>
 
-    <section>
-        <h2>Justificación del Proyecto</h2>
-        <p>
-            La automatización de huertas permite un uso más eficiente del agua, mejora la productividad y facilita el monitoreo del estado de las plantas. Este proyecto busca ofrecer una solución accesible y tecnológica para personas que deseen cultivar sus propios alimentos de forma sostenible.
-        </p>
-    </section>
+  <section id="justificacion">
+    <h2>Justificación del Proyecto</h2>
+    <p>
+      La automatización de huertas permite un uso más eficiente del agua, mejora la productividad y facilita el monitoreo del estado de las plantas. Este proyecto busca ofrecer una solución accesible y tecnológica para personas que deseen cultivar sus propios alimentos de forma sostenible.
+    </p>
+  </section>
 
-    <section>
-        <h2>Posibles Sensores a Emplear</h2>
-        <ul>
-            <li>Sensor de humedad del suelo (ej. YL-69)</li>
-            <li>Sensor de temperatura y humedad DHT11 o DHT22</li>
-            <li>Sensor de lluvia</li>
-            <li>LDR (sensor de luz) para control de iluminación</li>
-            <li>Sensor ultrasónico para control de nivel de agua</li>
-        </ul>
-    </section>
-<section>
+  <section id="sensores">
+    <h2>Posibles Sensores a Emplear</h2>
+    <ul>
+      <li>Sensor de humedad del suelo (ej. YL-69)</li>
+      <li>Sensor de temperatura y humedad DHT11 o DHT22</li>
+      <li>Sensor de lluvia</li>
+      <li>LDR (sensor de luz) para control de iluminación</li>
+      <li>Sensor ultrasónico para control de nivel de agua</li>
+    </ul>
+  </section>
+
+  <section id="referencias">
     <h2>Referencias Bibliográficas</h2>
     <ul>
-        <li>Instituto Nacional de Tecnología Agropecuaria (INTA). <em>Automatización en huertas urbanas</em>. Recuperado de: https://www.inta.gob.ar</li>
-        <li>Arduino Project Hub. <em>Soil Moisture Sensor Tutorial</em>. Recuperado de: https://create.arduino.cc/projecthub</li>
-        <li>Maker Pro. <em>How to Build an Automatic Garden Watering System</em>. Recuperado de: https://maker.pro/arduino</li>
-        <li>Datasheet del sensor DHT11. Recuperado de: https://components101.com/dht11-temperature-sensor</li>
-        <li>Parra, L. et al. (2018). <em>Smart Irrigation System Using Sensors and IoT</em>. IEEE Latin America Transactions, 16(9).</li>
+      <li>Instituto Nacional de Tecnología Agropecuaria (INTA). <em>Automatización en huertas urbanas</em>. Recuperado de: https://www.inta.gob.ar</li>
+      <li>Arduino Project Hub. <em>Soil Moisture Sensor Tutorial</em>. Recuperado de: https://create.arduino.cc/projecthub</li>
+      <li>Maker Pro. <em>How to Build an Automatic Garden Watering System</em>. Recuperado de: https://maker.pro/arduino</li>
+      <li>Datasheet del sensor DHT11. Recuperado de: https://components101.com/dht11-temperature-sensor</li>
+      <li>Parra, L. et al. (2018). <em>Smart Irrigation System Using Sensors and IoT</em>. IEEE Latin America Transactions, 16(9).</li>
     </ul>
-</section>
+  </section>
 
-    <div class="footer">
-       
-    </div>
+  <div class="footer">
+    &copy; 2025 Proyecto Huerta Automática
+  </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
+

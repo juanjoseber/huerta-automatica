@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagrama del Sistema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Diagrama del Sistema</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="diagrama.html">Diagrama del Sistema</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Diseño del Sistema</h2>
+    <p>
+      A continuación, se presenta un diagrama de bloques que muestra los principales componentes de la huerta automática, así como sus interconexiones:
+    </p>
+
+    <!-- 🔹 Aquí va tu imagen -->
+    <div style="text-align: center; margin: 20px;">
+      <img src="diagrama-bloques.png" 
+           alt="Diagrama de bloques del sistema" 
+           style="max-width: 100%; border: 2px solid #388e3c; border-radius: 10px;">
+    </div>
+    <!-- 🔹 Fin de la parte de la imagen -->
+
+    <p>
+      El sistema se compone de:
+    </p>
+    <ul>
+      <li><strong>Sensores:</strong> Humedad del suelo, temperatura/humedad (DHT11/DHT22), lluvia, luz (LDR), nivel de agua.</li>
+      <li><strong>Controlador:</strong> Arduino o microcontrolador que procesa las señales de los sensores.</li>
+      <li><strong>Actuadores:</strong> Bomba de agua, ventiladores, sistema de iluminación.</li>
+      <li><strong>Aplicación Web:</strong> Para visualizar datos en tiempo real y controlar el sistema de manera remota.</li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Proyecto Huerta Automática
+  </div>
+
+</body>
+</html>
+
